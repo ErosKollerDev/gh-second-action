@@ -10,4 +10,3 @@ jobs:
         run: |
           echo "Author: ${{ github.actor }}"
           echo "Branch: ${{ github.ref }}"
-          echo "Message: ${{ github.event.head_commit.message }}"
